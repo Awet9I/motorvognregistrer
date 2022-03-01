@@ -48,6 +48,6 @@ function formaterData(eiere){
 
 function slettAlle(){
     $.get("/slettalle", function (){
-        $("#biler").html("Listen er tomt!!!");
+       hentAlle();
     })
 }
